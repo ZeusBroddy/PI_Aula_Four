@@ -50,7 +50,6 @@ export default class Perfil extends Component {
                 <Image style={styles.foto} source={pic} />
                 <Text style={styles.nome}>{this.state.nome}</Text>
 
-
                 <View style={styles.infoCont}>
                     <View style={styles.infoItems}>
                         <Text style={styles.infoText}>{this.state.seguidores}</Text>
